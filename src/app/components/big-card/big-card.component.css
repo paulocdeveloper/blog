@@ -1,0 +1,30 @@
+.container__big-card{
+    margin: 0 20px 0 20px;
+    width: 400px;
+    height: 500px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.big-card__photo > img {
+    width: 400px;
+}
+
+.big-card__title > h1 {
+    margin: 15px 0 10px 0;
+    font-size: 25px;
+}
+
+.big-card__description {
+    margin: 10px 0 0 0;
+}
+
+.big-card__description > p > a {
+    color: gray;
+}
+
+
+/* parei no começo da aula 'concentrando o big cart'  */
